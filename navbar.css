@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+a {
+    font-size: 25px;
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+  }
+  
+a:hover {
+    background-color: black;
+    color: white;
+  } 
+  
+navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.color {
+  background-color: lightgray;
+}
